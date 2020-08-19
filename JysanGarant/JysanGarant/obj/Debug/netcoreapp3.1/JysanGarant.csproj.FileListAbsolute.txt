@@ -1,0 +1,15 @@
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/bin/Debug/netcoreapp3.1/JysanGarant.deps.json
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/bin/Debug/netcoreapp3.1/JysanGarant.runtimeconfig.json
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/bin/Debug/netcoreapp3.1/JysanGarant.runtimeconfig.dev.json
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/bin/Debug/netcoreapp3.1/JysanGarant.dll
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/bin/Debug/netcoreapp3.1/JysanGarant.pdb
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/obj/Debug/netcoreapp3.1/JysanGarant.csprojAssemblyReference.cache
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/obj/Debug/netcoreapp3.1/JysanGarant.AssemblyInfoInputs.cache
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/obj/Debug/netcoreapp3.1/JysanGarant.AssemblyInfo.cs
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/obj/Debug/netcoreapp3.1/JysanGarant.csproj.CoreCompileInputs.cache
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/obj/Debug/netcoreapp3.1/JysanGarant.dll
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/obj/Debug/netcoreapp3.1/JysanGarant.pdb
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/obj/Debug/netcoreapp3.1/JysanGarant.genruntimeconfig.cache
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/bin/Debug/netcoreapp3.1/Json.Net.dll
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/obj/Debug/netcoreapp3.1/JysanGarant.csproj.CopyComplete
+/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll

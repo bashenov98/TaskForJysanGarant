@@ -1,0 +1,1 @@
+Select c.name as Customers, m.name as SalesManager From orders o join customers c on c.id=o.customer_id join managers m on m.id=c.manager_id WHERE o.date>='2013-01-01'::date Group by c.name, m.name Having sum(o.amount) > 10000;

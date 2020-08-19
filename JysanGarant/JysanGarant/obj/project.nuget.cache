@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EU+4Ui3QmDAP26vUJZeW66xDHajCVw5nrk9H1+qqAJx6EVg++JLrbTxT9+fdBXkvlefu4sbnrvBgdbeiahxBqw==",
+  "success": true,
+  "projectFilePath": "/Users/bashenov98/Desktop/joboffer/JysanGarant/JysanGarant/JysanGarant.csproj",
+  "expectedPackageFiles": [
+    "/Users/bashenov98/.nuget/packages/json.net/1.0.23/json.net.1.0.23.nupkg.sha512",
+    "/Users/bashenov98/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

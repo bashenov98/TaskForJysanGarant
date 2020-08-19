@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <id>1</id>
+    <iinOrBin>981213350664</iinOrBin>
+    <created_at>2020-08-19T00:00:00+06:00</created_at>
+    <created_by>self</created_by>
+    <changed_at>2020-08-19T20:56:31.131596+06:00</changed_at>
+    <changed_by>self</changed_by>
+    <firstName>Daniyar</firstName>
+    <middleName>Zhamantaevich</middleName>
+    <lastName>Bashenov</lastName>
+  </Person>
+</ArrayOfPerson>
