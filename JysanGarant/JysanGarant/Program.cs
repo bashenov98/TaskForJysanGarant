@@ -167,28 +167,51 @@ namespace JysanGarant
                 serializer.Serialize(file, entities);
                 Console.WriteLine("Serialization is Done");
             }
-            using (StreamReader file = File.OpenText("person.json"))
+            try
             {
-                Console.WriteLine("Вывод списка ФизЛиц по фамилии:");
-                Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
-                List<Person> persons = (List<Person>)serializer.Deserialize(file, typeof(List<Person>));
-                List<Person> people = persons.OrderBy(o => o.lastName).ToList();
-                for (int i = 0; i < people.Count; i++)
+                using (StreamReader file = File.OpenText("person.json"))
                 {
-                    Console.WriteLine(people[i].lastName + ' ' + people[i].firstName + ' ' + people[i].middleName);
+                    Console.WriteLine("Вывод списка ФизЛиц по фамилии:");
+                    Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
+                    List<Person> persons = (List<Person>)serializer.Deserialize(file, typeof(List<Person>));
+                    List<Person> people = persons.OrderBy(o => o.lastName).ToList();
+                    for (int i = 0; i < people.Count; i++)
+                    {
+                        Console.WriteLine(people[i].lastName + ' ' + people[i].firstName + ' ' + people[i].middleName);
+                    }
                 }
             }
-            using (StreamReader file = File.OpenText("entity.json"))
+            catch (IOException e)
             {
-                Console.WriteLine("Bывод 5 ЮрЛиц с наибольшим количеством контактных лиц");
-                Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
-                List<Entity> entities1 = (List<Entity>)serializer.Deserialize(file, typeof(List<Entity>));
-                List<Entity> entities2 = entities1.OrderByDescending(o => o.contactList.Count).ToList();
-                for (int i = 0; i < 5; i++)
+                Console.WriteLine("{0}: The read " +
+                    "operation could not be performed " +
+                    "because the specified part of the " +
+                    "file is locked.",
+                    e.GetType().Name);
+            }
+            try
+            {
+                using (StreamReader file = File.OpenText("entity.json"))
                 {
-                    Console.WriteLine(entities2[i].name);
+                    Console.WriteLine("Bывод 5 ЮрЛиц с наибольшим количеством контактных лиц");
+                    Newtonsoft.Json.JsonSerializer serializer = new Newtonsoft.Json.JsonSerializer();
+                    List<Entity> entities1 = (List<Entity>)serializer.Deserialize(file, typeof(List<Entity>));
+                    List<Entity> entities2 = entities1.OrderByDescending(o => o.contactList.Count).ToList();
+                    for (int i = 0; i < 5; i++)
+                    {
+                        Console.WriteLine(entities2[i].name);
+                    }
                 }
             }
+            catch (IOException e)
+            {
+                Console.WriteLine("{0}: The read " +
+                    "operation could not be performed " +
+                    "because the specified part of the " +
+                    "file is locked.",
+                    e.GetType().Name);
+            }
+            
             
         }
 
