@@ -1,0 +1,9 @@
+/Users/bashenov98/Desktop/joboffer/1st_task_.NET/1st_task_.NET/bin/Debug/1st_task_.NET.exe
+/Users/bashenov98/Desktop/joboffer/1st_task_.NET/1st_task_.NET/bin/Debug/1st_task_.NET.pdb
+/Users/bashenov98/Desktop/joboffer/1st_task_.NET/1st_task_.NET/bin/Debug/Newtonsoft.Json.dll
+/Users/bashenov98/Desktop/joboffer/1st_task_.NET/1st_task_.NET/bin/Debug/Newtonsoft.Json.xml
+/Users/bashenov98/Desktop/joboffer/1st_task_.NET/1st_task_.NET/obj/Debug/1st_task_.NET.csprojAssemblyReference.cache
+/Users/bashenov98/Desktop/joboffer/1st_task_.NET/1st_task_.NET/obj/Debug/1st_task_.NET.csproj.CoreCompileInputs.cache
+/Users/bashenov98/Desktop/joboffer/1st_task_.NET/1st_task_.NET/obj/Debug/1st_task_.NET.csproj.CopyComplete
+/Users/bashenov98/Desktop/joboffer/1st_task_.NET/1st_task_.NET/obj/Debug/1st_task_.NET.exe
+/Users/bashenov98/Desktop/joboffer/1st_task_.NET/1st_task_.NET/obj/Debug/1st_task_.NET.pdb

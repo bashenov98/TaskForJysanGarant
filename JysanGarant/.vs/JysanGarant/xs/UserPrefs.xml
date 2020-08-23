@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{0A15A6CA-D413-4DAB-B089-1083B0E37C48}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="JysanGarant/Agent.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JysanGarant/Program.cs">
     <Files>
-      <File FileName="JysanGarant/Program.cs" Line="192" Column="13" />
+      <File FileName="JysanGarant/Program.cs" Line="153" Column="33" />
       <File FileName="JysanGarant/Agent.cs" Line="22" Column="27" />
       <File FileName="JysanGarant/Person.cs" Line="25" Column="1" />
       <File FileName="JysanGarant/Entity.cs" Line="17" Column="28" />
@@ -10,7 +10,9 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="JysanGarant" expanded="True">
-            <Node name="JysanGarant" expanded="True" />
+            <Node name="JysanGarant" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
